@@ -27,7 +27,7 @@ const QuoteList = (props) => {
     // changing the path to object as history hook allows it 
     history.push({
       pathname: location.pathname,
-      search:`${location.pathname}?sort=${(isSortInputAscending ? "desc" : "asc")}`
+      search:`?sort=${(isSortInputAscending ? "desc" : "asc")}`
     })
     // changing the path hardcoded to a dynmic one
 
